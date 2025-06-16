@@ -1,6 +1,4 @@
 #!/bin/bash
-
-# Функция логирования ошибок
 log_error() {
     local message="$1"
     local log_file="$2"
