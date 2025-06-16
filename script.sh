@@ -1,4 +1,5 @@
 #!/bin/bash
+
 log_error() {
     local message="$1"
     local log_file="$2"
@@ -6,7 +7,7 @@ log_error() {
     echo "$(date '+%Y-%m-%d %H:%M:%S'): $message" >> "$log_file"
 }
 
-# Функция выполнения вычислений
+
 calculate() {
     local op="$1"
     shift
